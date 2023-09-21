@@ -1,2 +1,3 @@
 # Nyan_Escrow
-Nyan escrow dapp pet project
+Small pet project of escrow service 
+node_modules folders are excluded, so npm i 
