@@ -1,0 +1,26 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.container {
+  @apply border-b-2 border-black;
+}
+.arbiter {
+  @apply bg-indigo-400;
+}
+
+.beneficiary {
+  @apply bg-indigo-400;
+}
+
+.value {
+  @apply bg-indigo-400;
+}
+
+.button {
+  @apply  w-3/12 bg-blue-200 cursor-pointer rounded-lg  font-semibold hover:bg-blue-400 duration-100
+}
+
+.complete {
+    @apply bg-green-400
+}

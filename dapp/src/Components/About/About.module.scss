@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.back {
+    @apply h-screen bg-[url('../../assets/backg.png')]  bg-no-repeat bg-cover  pt-32 relative 
+}
+.newContract {
+    @apply bg-sky-300 opacity-80 pt-3 rounded-md w-4/6 h-5/6
+}

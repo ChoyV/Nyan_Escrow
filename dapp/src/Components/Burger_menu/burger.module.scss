@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.toggleMenu {
+    @apply cursor-pointer fixed border-neutral-950;
+}
+.icon {
+    @apply w-auto h-auto m-0 z-50;
+}
+
+.menuOpened {
+    @apply w-2/12 h-full fixed bg-sky-600 top-0 left-0 ;
+}
+
+.close {
+    @apply w-6 h-6 absolute top-0 right-0 mr-2 mt-2 z-20;
+}
+
